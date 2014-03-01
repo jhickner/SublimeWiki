@@ -14,7 +14,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>^\s*(\w+.+:\s*$\n?)</string>
+			<string>^#\s*(\w+.+:\s*$\n?)</string>
 			<key>name</key>
 			<string>keyword.control.header.Wiki</string>
 		</dict>
@@ -33,16 +33,6 @@
 			<string>((?:https?|ftp)://\S+)</string>
 			<key>name</key>
 			<string>markup.underline.link.external.Wiki</string>
-		</dict>
-		<dict>
-			<key>begin</key>
-			<string>"</string>
-			<key>comment</key>
-			<string>I know I don't need this, but I like strings to be called out.</string>
-			<key>end</key>
-			<string>"</string>
-			<key>name</key>
-			<string>string.quoted.double.Wiki</string>
 		</dict>
 		<dict>
 			<key>begin</key>
